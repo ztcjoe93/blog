@@ -1,0 +1,41 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: tatwritescode
+theme: PaperMod
+
+enableRobotsTXT: true
+enableInlineShortcodes: true
+
+params:
+  DateFormat: "2 January, 2006 15:04:05 SGT"
+
+  profileMode:
+    enabled: true
+    subtitle: "Daily struggles of a software engineer"
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: test
+    Content: ok
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ztcjoe93"
+    - name: linkedin
+      url: "https://linkedin.com/in/zhengtat"
+    - name: cv
+
+menu:
+  main:
+  - name: Tags
+    url: tags
+    weight: 10
+  - name: Posts
+    url: posts
+    weight: 15
