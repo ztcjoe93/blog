@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: /
 languageCode: en-us
 title: tatwritescode
 theme: PaperMod
@@ -6,12 +6,32 @@ theme: PaperMod
 enableRobotsTXT: true
 enableInlineShortcodes: true
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
   DateFormat: "2 January, 2006 15:04:05 SGT"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
   profileMode:
     enabled: true
     subtitle: "Daily struggles of a software engineer"
+    imageUrl: profile.jpeg
     imageWidth: 200
     imageHeight: 200
     buttons:
@@ -30,6 +50,7 @@ params:
     - name: linkedin
       url: "https://linkedin.com/in/zhengtat"
     - name: cv
+      url: "resume.pdf"
 
 menu:
   main:
@@ -39,3 +60,6 @@ menu:
   - name: Posts
     url: posts
     weight: 15
+  - name: Search
+    url: search
+    weight: 20
