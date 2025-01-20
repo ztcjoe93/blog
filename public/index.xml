@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- 0.141.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jan 2025 21:46:50 +0800</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Makefile -- the pseudo-shell script</title>
+      <link>https://example.org/posts/20250120/</link>
+      <pubDate>Mon, 20 Jan 2025 21:46:50 +0800</pubDate>
+      <guid>https://example.org/posts/20250120/</guid>
+      <description>&lt;p&gt;So generally, when someone decides on a tool to use for, let&amp;rsquo;s just say generic operations, they usually use shell scripts.
+And the thing about shell scripts is that there&amp;rsquo;s so many flavors to it &amp;ndash; it could be Bash, zsh; there&amp;rsquo;s so many options out there.&lt;/p&gt;
+&lt;p&gt;So when I was at work, I saw this &lt;code&gt;Makefile&lt;/code&gt; in the repository and it was kind of different &amp;#x1f928; &amp;ndash; instead of like a whole bunch of compilation commands for your typical C++ program, it was actually a file used to run specific commands, and in this case to actually manage certain resources in a Kubernetes cluster.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
