@@ -1,5 +1,10 @@
 baseURL = 'https://example.org/'
 enableEmoji = true
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'ZT struggles to code'
 theme = 'papermod'
+
+[params]
+  [homeInfoParams]
+    Title = 'A tech n00b learning how to code.'
+    Content = 'Daily struggles of a random running junkie, training to be a mountain goat'
